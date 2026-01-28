@@ -86,7 +86,6 @@ from config import (
     webui_port_uvr5,
 )
 
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 n_cpu = cpu_count()
