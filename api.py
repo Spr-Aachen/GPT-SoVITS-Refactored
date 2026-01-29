@@ -131,7 +131,7 @@ async def tts_handle(
     text: str = "", # 待合成文本
     text_language: str = 'auto', # 目标文本语言 ['zh', 'yue', 'en', 'ja', 'ko', 'auto', 'auto_yue']
     cut_punc: Optional[str] = None, # 文本切分符号 [',', '.', ';', '?', '!', '、', '，', '。', '？', '！', '；', '：', '…']
-    top_k: int = 5, # Top-K 采样值
+    top_k: int = 15, # Top-K 采样值
     top_p: float = 1.0, # Top-P 采样值
     temperature: float = 1.0, # 温度值
     speed: float = 1.0, # 语速因子
